@@ -6,7 +6,8 @@ E-Commerce solution based upon [Laravel](https://laravel.com/)
 
 ## Sponsors
 
-We extend our sincere appreciation to our sponsors, Thanks to our wonderful sponsor [Creative Filament](http://www.creativefilament.com/).  If you are interested in becoming a sponsor and support **Nexzurt** please contact [@nexzurt](https://twitter.com/nexzurt)
+We extend our sincere appreciation to our sponsors, Thanks to our wonderful sponsor [Creative Filament](http://www.creativefilament.com/)..
+...If you are interested in becoming a sponsor and support **Nexzurt** please contact [@nexzurt](https://twitter.com/nexzurt)
 
 ## Find Nexzurt in
 
