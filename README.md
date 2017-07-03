@@ -1,8 +1,7 @@
-<p align="center"><img src="https://pbs.twimg.com/profile_banners/880708137333993473/1498814232/1500x500"></p>
+<p align="center"><img src="https://pbs.twimg.com/profile_images/880713984558731264/Emup0gdS_400x400.jpg"></p>
 
 ## NEXZURT
 
-<img src="https://pbs.twimg.com/profile_images/880713984558731264/Emup0gdS_400x400.jpg">
 E-Commerce solution based upon [Laravel](https://laravel.com/)
 
 ## Sponsors
