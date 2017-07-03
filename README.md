@@ -2,7 +2,7 @@
 
 ## NEXZURT
 
-E-Commerce solution based upon [Laravel](https://laravel.com/)
+E-Commerce solution inspired & build with [Laravel](https://laravel.com/)
 
 ## Sponsors
 
@@ -16,4 +16,4 @@ If you are interested in becoming a sponsor and support **Nexzurt** please conta
 
 ## License
 
-This Nexzurt is open-sourced software licensed under the [MPL-2.0](https://choosealicense.com/licenses/mpl-2.0/).
+The Nexzurt is open-sourced software licensed under the [MPL-2.0](https://choosealicense.com/licenses/mpl-2.0/).
