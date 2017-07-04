@@ -46,7 +46,7 @@ Route::prefix('admin')->group(function() {
 	|admin access routes only if they are logged in
 	|--------------------------------------------------------------------------------------------------
 	*/
-    Route::middleware(['adminLoginStat'])->group(function() {
+    Route::middleware(['auth:admin'])->group(function() {
     	Route::get('/', 'AdminController@index')->name('admin.dashboard');
     });
     
