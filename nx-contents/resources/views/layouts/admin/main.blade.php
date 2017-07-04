@@ -31,7 +31,16 @@
         <!--User Menu-->
         <ul class="nav navbar-nav float-lg-right mai-user-nav">
           <li class="dropdown nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle nav-link"> <img src="{{ asset( 'nx-assets/nx-admin/img/profile' ) }}/{{ (Auth::user()->profile_pic)? Auth::user()->profile_pic : 'demo.jpg' }}"><span class="user-name">{{ Auth::user()->name }}</span><span class="angle-down s7-angle-down"></span></a>
-            <div role="menu" class="dropdown-menu"><a href="#" class="dropdown-item"> <span class="icon s7-home"> </span>My Account</a><a href="#" class="dropdown-item"> <span class="icon s7-user"> </span>Profile</a><a href="#" class="dropdown-item"> <span class="icon s7-cash"> </span>Billing</a><a href="#" class="dropdown-item"> <span class="icon s7-tools"> </span>Settings</a><a href="#" class="dropdown-item"> <span class="icon s7-power"> </span>Log Out</a></div>
+            <div role="menu" class="dropdown-menu">
+              <a href="#" class="dropdown-item"> <span class="icon s7-home"> </span>My Account</a>
+              <a href="#" class="dropdown-item"> <span class="icon s7-user"> </span>Profile</a>
+              <a href="#" class="dropdown-item"> <span class="icon s7-cash"> </span>Billing</a>
+              <a href="#" class="dropdown-item"> <span class="icon s7-tools"> </span>Settings</a>
+              <a href="#" class="dropdown-item" onclick="event.preventDefault();document.getElementById('logout-form').submit();"> <span class="icon s7-power"> </span>Log Out</a>
+              <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
+                  {{ csrf_field() }}
+              </form>
+            </div>
           </li>
         </ul>
       </div>
