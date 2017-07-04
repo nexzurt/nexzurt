@@ -1,4 +1,4 @@
-<p align="center"><img src="https://pbs.twimg.com/profile_images/880713984558731264/Emup0gdS_400x400.jpg"></p>
+<p align="center"><img src="http://www.creativefilament.com/assets/images/nexzurt-sm.jpg"></p>
 
 ## NEXZURT
 
