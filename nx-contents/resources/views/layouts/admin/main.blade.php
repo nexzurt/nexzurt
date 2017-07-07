@@ -56,15 +56,11 @@
     <script src="{{ asset( 'nx-assets/nx-admin/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js' ) }}" type="text/javascript"></script>
     <script src="{{ asset( 'nx-assets/nx-admin/lib/bootstrap/dist/js/bootstrap.min.js' ) }}" type="text/javascript"></script>
     <script src="{{ asset( 'nx-assets/nx-admin/js/app.js' ) }}" type="text/javascript"></script>
+    
+    {{-- page specific --}}
+      @stack('scripts')
+    {{-- page specific --}}
 
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/jquery.flot.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/jquery.flot.pie.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/jquery.flot.time.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/jquery.flot.resize.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/plugins/jquery.flot.orderBars.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/jquery-flot/plugins/curvedLines.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/lib/countup/countUp.min.js' ) }}" type="text/javascript"></script>
-    <script src="{{ asset( 'nx-assets/nx-admin/js/app-dashboard.js' ) }}" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         //initialize the javascript
@@ -72,8 +68,6 @@
         App.dashboard();
       });
     </script>
-    {{-- page specific --}}
-      @stack('scripts')
-    {{-- page specific --}}
+
   </body>
 </html>
