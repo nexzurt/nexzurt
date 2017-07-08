@@ -18,7 +18,7 @@
 
           @yield('welcome-msg')
 
-          <div class="col-sm-6 form-message"><img src="assets/img/logo-2x.png" alt="logo" width="169" height="28" class="logo-img mb-4">
+          <div class="col-sm-6 form-message"><img src="{{ asset('nx-assets/nx-admin/nexzurt-logo.png') }}" alt="logo" width="169" height="50" class="logo-img mb-4">
 
           @yield('welcome-msg2')
             

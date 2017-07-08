@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.creativefilament.com/assets/images/nexzurt-sm.jpg"></p>
+<p align="center"><img src="http://www.creativefilament.com/assets/images/nexzurt-github.png"></p>
 
 ## NEXZURT
 

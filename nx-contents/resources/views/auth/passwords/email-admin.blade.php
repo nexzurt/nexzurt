@@ -41,6 +41,10 @@
         <div class="form-group login-submit">
             <button data-dismiss="modal" type="submit" class="btn btn-lg btn-primary btn-block">Send Verification Mail</button>
         </div>
+
+            <div class="col-md-6 col-md-offset-6 col-sm-12 login-forgot-password pull-right">
+                <a href="{{ route('admin.login') }}">Login to my account</a>
+            </div>
     </form>
 
 @endsection

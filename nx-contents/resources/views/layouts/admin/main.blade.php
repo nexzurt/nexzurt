@@ -16,7 +16,7 @@
   </head>
   <body>
     <nav class="navbar navbar-full navbar-inverse navbar-fixed-top mai-top-header">
-      <div class="container"><a href="#" class="navbar-brand"></a>
+      <div class="container"><a href="{{ route('admin.dashboard') }}" class="navbar-brand"></a>
         <!--Left Menu-->
         <ul class="nav navbar-nav mai-top-nav">
           <!-- <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
